@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: '曲豆豆',
+    age: 20,
+    members: [
+      {id:1,name:'1a'},
+      {id:2,name:'2b'},
+      {id:3,name:'3c'},
+    ],
+    count:0
+  },
+  handleBtnClickAdd(){
+    this.setData({
+      count: this.data.count + 1,
+    })
+    console.log(this.data.count)
+  },
+  handleBtnClickMinus() {
+    this.setData({
+      count: this.data.count - 1,
+    })
+    console.log(this.data.count)
   },
 
   /**

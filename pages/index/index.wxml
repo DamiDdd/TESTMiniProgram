@@ -1,3 +1,12 @@
 <!--pages/index/index.wxml-->
-<text class='title'>你好</text>
-<button size='mini'>button</button>
+<!--1.数据使用 {{}}-->
+<view>Hello,{{name}}</view>
+<view>age:{{age}}</view>
+
+<!--2.list-->
+<view wx:for="{{members}}">{{item.id}}-{{item.name}}</view>
+
+<!--3.function-->
+<view>count:{{count}}</view>
+<button size="mini" bindtap="handleBtnClickAdd">+</button>
+<button size="mini" bindtap="handleBtnClickMinus">-</button>
