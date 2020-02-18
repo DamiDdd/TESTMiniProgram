@@ -1,5 +1,14 @@
 {
   "pages": [
-    "pages/index/index"
-  ]
+    "pages/index/index",
+    "pages/catagory/catagory"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "曲豆豆",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "gray",
+    "enablePullDownRefresh": true
+  }
 }
