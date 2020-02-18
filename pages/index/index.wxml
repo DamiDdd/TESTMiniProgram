@@ -10,3 +10,4 @@
 <view>count:{{count}}</view>
 <button size="mini" bindtap="handleBtnClickAdd">+</button>
 <button size="mini" bindtap="handleBtnClickMinus">-</button>
+<button size="mini" bindtap="handleBtnClickDoubleMinus">--</button>

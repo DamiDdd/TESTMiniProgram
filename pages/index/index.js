@@ -21,10 +21,17 @@ Page({
     })
     console.log(this.data.count)
   },
-  
+
   handleBtnClickMinus() {
     this.setData({
       count: this.data.count - 1,
+    })
+    console.log(this.data.count)
+  },
+
+  handleBtnClickDoubleMinus() {
+    this.setData({
+      count: this.data.count - 2,
     })
     console.log(this.data.count)
   },
