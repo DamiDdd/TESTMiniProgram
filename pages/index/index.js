@@ -14,12 +14,14 @@ Page({
     ],
     count:0
   },
+
   handleBtnClickAdd(){
     this.setData({
       count: this.data.count + 1,
     })
     console.log(this.data.count)
   },
+  
   handleBtnClickMinus() {
     this.setData({
       count: this.data.count - 1,
