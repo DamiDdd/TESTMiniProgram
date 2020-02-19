@@ -5,7 +5,7 @@ App({
    */
   onLaunch: function () {
     console.log('init')
-    //得到用户信息
+    //得到用户信息(旧操作),新操作在index.wxml处
     wx.getUserInfo({
       success:function(res){
         console.log(res)
@@ -32,5 +32,9 @@ App({
    */
   onError: function (msg) {
     
+  },
+
+  globalData:{
+    name: "曲豆豆"
   }
 })

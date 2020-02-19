@@ -1,5 +1,14 @@
 // pages/index/index.js
+// 演示获取全局变量
+const app = getApp()
+console.log(app.globalData.name)
+
 Page({
+
+  handleGetUserInfo(event){
+    console.log("getUserInfo")
+    console.log(event)
+  },
 
   /**
    * 页面的初始数据
