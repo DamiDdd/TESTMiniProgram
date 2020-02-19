@@ -5,6 +5,7 @@ App({
    */
   onLaunch: function () {
     console.log('init')
+    //得到用户信息
     wx.getUserInfo({
       success:function(res){
         console.log(res)
