@@ -1,3 +1,11 @@
 <!--pages/index/index.wxml-->
-<text class='title'>你好</text>
-<button size='mini'>button</button>
+<!--1. 可以选中-->
+<text selectable='{{true}}' class='title'>你好\n</text>
+<!--2. space:决定空格大小-->
+<text space="nbsp">\nhi nn\n</text>
+<text space="emsp">hi nn\n</text>
+<text space="ensp">hi nn\n</text>
+<!--3. decode做解码-->
+<text decode> 5 &gt; 3</text>
+
+<button type="primary">upload</button>
