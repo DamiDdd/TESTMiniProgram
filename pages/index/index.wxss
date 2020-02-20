@@ -3,3 +3,8 @@
   color: aqua;
   font-size: 40px;
 }
+
+.pressed{
+  background: red;
+  color: white;
+}

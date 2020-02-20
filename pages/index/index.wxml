@@ -9,3 +9,4 @@
 <text decode> 5 &gt; 3</text>
 
 <button type="primary">upload</button>
+<button hover-class="pressed">upload</button>
