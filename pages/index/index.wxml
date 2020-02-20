@@ -6,3 +6,8 @@
 <!--展示用户信息的方式-->
 <open-data type="userNickName"></open-data>
 <open-data type="userAvatarUrl"></open-data>
+<view class='title'>你好</view>
+<view class='title'>你好</view>
+<view class='title'>你好</view>
+<view class='title'>你好</view>
+
