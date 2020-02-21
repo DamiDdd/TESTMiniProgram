@@ -8,3 +8,22 @@
   background: red;
   color: white;
 }
+
+.box1{
+  width: 100px;
+  height: 100px;
+  background: purple;
+}
+.hover-view{
+  background: orange;
+  font-size: 30px;
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  background: beige;
+}
+.box2-hover{
+  background: green;
+}
