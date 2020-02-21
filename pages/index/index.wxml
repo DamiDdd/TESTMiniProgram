@@ -1,3 +1,15 @@
 <!--pages/index/index.wxml-->
-<text class='title'>你好</text>
-<button size='mini'>button</button>
+<!--
+  image默认大小 320*240
+  image自己在inline-block
+-->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+<!--相册-->
+<button bindtap="handleChooseAlbum">添加图片</button>
+<image src="{{imagePath}}"></image>
+
+<!--监听图片加载完成&增加识别小程序码-->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+bindload="handleImageLoad"
+show-menu-by-longpress></image>
+
