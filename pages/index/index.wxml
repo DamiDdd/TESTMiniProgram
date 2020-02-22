@@ -13,3 +13,10 @@
 bindload="handleImageLoad"
 show-menu-by-longpress></image>
 
+<input value="hh"/>
+
+<!--type决定弹出键盘类型-->
+<input value="身份证" type="idcard"/>
+
+<!--获得用户输入的东西-->
+<input bindblur="handleBlur"></input>
