@@ -1,3 +1,10 @@
 <!--pages/index/index.wxml-->
-<text class='title'>你好</text>
-<button size='mini'>button</button>
+<scroll-view class="container1" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+
+<scroll-view class="container2" 
+  scroll-y 
+  bindscroll="handleScroll">
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
