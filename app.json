@@ -2,5 +2,6 @@
   "pages": [
     "pages/index/index",
     "pages/catagory/catagory"
-  ]
+  ],
+  "sitemapLocation": "sitemap12.json"
 }
